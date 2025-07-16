@@ -44,7 +44,7 @@ class _SearchCityPageState extends State<SearchCityPage> {
   late List<City> _filtered;
 
   @override
-  void initState() {
+  void initState(){
     super.initState();
     _filtered = _allCities;                 
     _controller.addListener(_onSearchChanged);
@@ -135,7 +135,7 @@ class _CityCard extends StatelessWidget {
   final City city;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Card(
       elevation: 8,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -145,7 +145,7 @@ class _CityCard extends StatelessWidget {
         title: Text(city.name,
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600)),
         trailing: const Icon(Icons.chevron_right),
-        onTap: () {
+        onTap: (){
           Navigator.push(
             context,
             MaterialPageRoute(

@@ -5,6 +5,7 @@ plugins {
 }
 
 
+
 android {
     namespace = "com.example.position"
     compileSdk = 35
@@ -24,6 +25,9 @@ android {
         targetSdk = 30
         versionCode = 1
         versionName = "1.0"
+        
+   
+
     }
 
     buildTypes {

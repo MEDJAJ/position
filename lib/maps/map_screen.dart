@@ -75,7 +75,7 @@ class _MapScreenState extends State<MapScreen> {
         markerId: const MarkerId('currentLocation'),
         position: currentLocation!,
         infoWindow: const InfoWindow(title: 'مكاني الحالي'),
-        icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue),
+        icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueGreen),
       ),
     );
 
